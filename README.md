@@ -70,7 +70,7 @@ This is useful when you want to:
 ```php
 <?php
 
-use SytxLabs\FileSanitizer\FileSanitizer;
+use Portavice\FileSanitizer\FileSanitizer;
 
 $sanitizer = new FileSanitizer();
 
