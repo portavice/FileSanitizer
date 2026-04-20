@@ -37,7 +37,7 @@
   },
   "require-dev": {
     "portavice/laravel-pint-config": "^2.0",
-    "phpunit/phpunit": "^12",
+    "phpunit/phpunit": "^10|^12",
     "roave/security-advisories": "dev-latest"
   },
   "config": {
