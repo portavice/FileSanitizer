@@ -51,6 +51,5 @@
     "csfix": "pint --config vendor/portavice/laravel-pint-config/pint.json",
     "test": "phpunit --configuration phpunit.xml"
   },
-  "minimum-stability": "dev",
   "prefer-stable": true
 }
