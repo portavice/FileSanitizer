@@ -2,7 +2,7 @@
 
 require __DIR__ . '/../vendor/autoload.php';
 
-use SytxLabs\FileSanitizer\FileSanitizer;
+use Portavice\FileSanitizer\FileSanitizer;
 
 $files = [];
 echo '<ul>';

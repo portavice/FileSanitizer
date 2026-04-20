@@ -1,11 +1,11 @@
 <?php
 
-namespace SytxLabs\FileSanitizer\Tests\Sanitizer;
+namespace Portavice\FileSanitizer\Tests\Sanitizer;
 
 use PHPUnit\Framework\TestCase;
+use Portavice\FileSanitizer\Dto\Issue;
+use Portavice\FileSanitizer\Sanitizer\VideoSanitizer;
 use RuntimeException;
-use SytxLabs\FileSanitizer\Dto\Issue;
-use SytxLabs\FileSanitizer\Sanitizer\VideoSanitizer;
 
 class VideoSanitizerTest extends TestCase
 {

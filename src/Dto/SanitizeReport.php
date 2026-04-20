@@ -1,6 +1,6 @@
 <?php
 
-namespace SytxLabs\FileSanitizer\Dto;
+namespace Portavice\FileSanitizer\Dto;
 
 use JsonSerializable;
 use Stringable;

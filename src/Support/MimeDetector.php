@@ -1,6 +1,6 @@
 <?php
 
-namespace SytxLabs\FileSanitizer\Support;
+namespace Portavice\FileSanitizer\Support;
 
 use RuntimeException;
 

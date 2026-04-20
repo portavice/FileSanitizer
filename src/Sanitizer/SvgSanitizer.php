@@ -1,17 +1,17 @@
 <?php
 
-namespace SytxLabs\FileSanitizer\Sanitizer;
+namespace Portavice\FileSanitizer\Sanitizer;
 
 use DOMDocument;
 use DOMElement;
 use DOMNode;
 use DOMXPath;
 use Exception;
+use Portavice\FileSanitizer\Contracts\SanitizerInterface;
+use Portavice\FileSanitizer\Dto\Issue;
+use Portavice\FileSanitizer\Dto\SanitizeReport;
+use Portavice\FileSanitizer\Enums\IssueSeverity;
 use RuntimeException;
-use SytxLabs\FileSanitizer\Contracts\SanitizerInterface;
-use SytxLabs\FileSanitizer\Dto\Issue;
-use SytxLabs\FileSanitizer\Dto\SanitizeReport;
-use SytxLabs\FileSanitizer\Enums\IssueSeverity;
 
 final class SvgSanitizer implements SanitizerInterface
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace SytxLabs\FileSanitizer\Tests\Sanitizer;
+namespace Portavice\FileSanitizer\Tests\Sanitizer;
 
 use Exception;
 use PHPUnit\Framework\TestCase;
-use SytxLabs\FileSanitizer\Sanitizer\SvgSanitizer;
+use Portavice\FileSanitizer\Sanitizer\SvgSanitizer;
 
 final class SvgSanitizerTest extends TestCase
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace SytxLabs\FileSanitizer\Dto;
+namespace Portavice\FileSanitizer\Dto;
 
 use JsonSerializable;
+use Portavice\FileSanitizer\Enums\IssueSeverity;
 use Stringable;
-use SytxLabs\FileSanitizer\Enums\IssueSeverity;
 
 final class Issue implements JsonSerializable, Stringable
 {

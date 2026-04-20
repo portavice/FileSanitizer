@@ -1,11 +1,11 @@
 <?php
 
-namespace SytxLabs\FileSanitizer\Tests\Sanitizer;
+namespace Portavice\FileSanitizer\Tests\Sanitizer;
 
 use PHPUnit\Framework\TestCase;
+use Portavice\FileSanitizer\Dto\Issue;
+use Portavice\FileSanitizer\Sanitizer\AudioSanitizer;
 use RuntimeException;
-use SytxLabs\FileSanitizer\Dto\Issue;
-use SytxLabs\FileSanitizer\Sanitizer\AudioSanitizer;
 
 class AudioSanitizerTest extends TestCase
 {

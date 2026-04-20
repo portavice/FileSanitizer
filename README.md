@@ -1,10 +1,10 @@
 # FileSanitizer
 
 [![MIT Licensed](https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-[![Check code style](https://github.com/SytxLabs/FileSanitizer/actions/workflows/code-style.yml/badge.svg?style=flat-square)](https://github.com/SytxLabs/FileSanitizer/actions/workflows/code-style.yml)
-[![Tests](https://github.com/SytxLabs/FileSanitizer/actions/workflows/tests.yml/badge.svg?style=flat-square)](https://github.com/SytxLabs/FileSanitizer/actions/workflows/tests.yml)
-[![Latest Version on Packagist](https://poser.pugx.org/sytxlabs/filesanitizer/v/stable?format=flat-square)](https://packagist.org/packages/sytxlabs/filesanitizer)
-[![Total Downloads](https://poser.pugx.org/sytxlabs/filesanitizer/downloads?format=flat-square)](https://packagist.org/packages/sytxlabs/filesanitizer)
+[![Check code style](https://github.com/portavice/FileSanitizer/actions/workflows/code-style.yml/badge.svg?style=flat-square)](https://github.com/portavice/FileSanitizer/actions/workflows/code-style.yml)
+[![Tests](https://github.com/portavice/FileSanitizer/actions/workflows/tests.yml/badge.svg?style=flat-square)](https://github.com/portavice/FileSanitizer/actions/workflows/tests.yml)
+[![Latest Version on Packagist](https://poser.pugx.org/portavice/filesanitizer/v/stable?format=flat-square)](https://packagist.org/packages/portavice/filesanitizer)
+[![Total Downloads](https://poser.pugx.org/portavice/filesanitizer/downloads?format=flat-square)](https://packagist.org/packages/portavice/filesanitizer)
 
 Pure PHP file sanitizer and scanner for uploaded files. It strips metadata where practical, rewrites selected file types into safer forms, and detects suspicious or malicious content such as XSS-style payloads, risky embedded markup, active PDF content, and dangerous archive entries.
 
@@ -23,7 +23,7 @@ Pure PHP file sanitizer and scanner for uploaded files. It strips metadata where
 ## Installation
 
 ```bash
-composer require sytxlabs/filesanitizer
+composer require portavice/filesanitizer
 ````
 
 For development and tests:
@@ -40,7 +40,7 @@ composer test
 
 require __DIR__ . '/vendor/autoload.php';
 
-use SytxLabs\FileSanitizer\FileSanitizer;
+use Portavice\FileSanitizer\FileSanitizer;
 
 $sanitizer = new FileSanitizer();
 

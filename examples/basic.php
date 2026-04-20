@@ -2,7 +2,7 @@
 
 require __DIR__ . '/../vendor/autoload.php';
 
-use SytxLabs\FileSanitizer\FileSanitizer;
+use Portavice\FileSanitizer\FileSanitizer;
 
 $input = $argv[1] ?? null;
 

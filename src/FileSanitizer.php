@@ -1,23 +1,23 @@
 <?php
 
-namespace SytxLabs\FileSanitizer;
+namespace Portavice\FileSanitizer;
 
+use Portavice\FileSanitizer\Contracts\SanitizerInterface;
+use Portavice\FileSanitizer\Contracts\ScannerInterface;
+use Portavice\FileSanitizer\Dto\Issue;
+use Portavice\FileSanitizer\Dto\SanitizeReport;
+use Portavice\FileSanitizer\Dto\ScanReport;
+use Portavice\FileSanitizer\Enums\IssueSeverity;
+use Portavice\FileSanitizer\Sanitizer\AudioSanitizer;
+use Portavice\FileSanitizer\Sanitizer\HtmlSanitizer;
+use Portavice\FileSanitizer\Sanitizer\ImageSanitizer;
+use Portavice\FileSanitizer\Sanitizer\PdfSanitizer;
+use Portavice\FileSanitizer\Sanitizer\SvgSanitizer;
+use Portavice\FileSanitizer\Sanitizer\TextLikeSanitizer;
+use Portavice\FileSanitizer\Sanitizer\VideoSanitizer;
+use Portavice\FileSanitizer\Scanner\PatternScanner;
+use Portavice\FileSanitizer\Support\MimeDetector;
 use RuntimeException;
-use SytxLabs\FileSanitizer\Contracts\SanitizerInterface;
-use SytxLabs\FileSanitizer\Contracts\ScannerInterface;
-use SytxLabs\FileSanitizer\Dto\Issue;
-use SytxLabs\FileSanitizer\Dto\SanitizeReport;
-use SytxLabs\FileSanitizer\Dto\ScanReport;
-use SytxLabs\FileSanitizer\Enums\IssueSeverity;
-use SytxLabs\FileSanitizer\Sanitizer\AudioSanitizer;
-use SytxLabs\FileSanitizer\Sanitizer\HtmlSanitizer;
-use SytxLabs\FileSanitizer\Sanitizer\ImageSanitizer;
-use SytxLabs\FileSanitizer\Sanitizer\PdfSanitizer;
-use SytxLabs\FileSanitizer\Sanitizer\SvgSanitizer;
-use SytxLabs\FileSanitizer\Sanitizer\TextLikeSanitizer;
-use SytxLabs\FileSanitizer\Sanitizer\VideoSanitizer;
-use SytxLabs\FileSanitizer\Scanner\PatternScanner;
-use SytxLabs\FileSanitizer\Support\MimeDetector;
 
 final class FileSanitizer
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace SytxLabs\FileSanitizer\Contracts;
+namespace Portavice\FileSanitizer\Contracts;
 
-use SytxLabs\FileSanitizer\Dto\SanitizeReport;
+use Portavice\FileSanitizer\Dto\SanitizeReport;
 
 interface SanitizerInterface
 {

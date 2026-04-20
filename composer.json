@@ -1,26 +1,29 @@
 {
-  "name": "sytxlabs/filesanitizer",
+  "name": "portavice/filesanitizer",
   "description": "A PHP library to sanitize file names and content to prevent security vulnerabilities.",
   "type": "library",
   "license": "MIT",
   "keywords": ["file sanitization", "security", "PHP library"],
-  "authors": [
-    {
-      "name": "Shaun Lüdeke",
-      "email": "info@sytxlabs.eu",
-      "homepage": "https://sytxlabs.eu",
-      "role": "Developer"
-    }
-  ],
-  "homepage": "https://sytxlabs.eu",
+    "authors": [
+        {
+            "name": "Shaun Lüdeke",
+            "email": "shaun.luedeke@portavice.de",
+            "homepage": "https://portavice.de",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/portavice/FileSanitizer/issues"
+    },
+  "homepage": "https://portavice.de",
   "autoload": {
     "psr-4": {
-      "SytxLabs\\FileSanitizer\\": "src/"
+      "Portavice\\FileSanitizer\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "SytxLabs\\FileSanitizer\\Tests\\": "tests/"
+      "Portavice\\FileSanitizer\\Tests\\": "tests/"
     }
   },
   "require": {

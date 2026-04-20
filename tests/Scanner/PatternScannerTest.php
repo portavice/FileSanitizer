@@ -1,10 +1,10 @@
 <?php
 
-namespace SytxLabs\FileSanitizer\Tests\Scanner;
+namespace Portavice\FileSanitizer\Tests\Scanner;
 
 use Exception;
 use PHPUnit\Framework\TestCase;
-use SytxLabs\FileSanitizer\Scanner\PatternScanner;
+use Portavice\FileSanitizer\Scanner\PatternScanner;
 use ZipArchive;
 
 final class PatternScannerTest extends TestCase

@@ -1,8 +1,8 @@
 <?php
 
-namespace SytxLabs\FileSanitizer\Contracts;
+namespace Portavice\FileSanitizer\Contracts;
 
-use SytxLabs\FileSanitizer\Dto\ScanReport;
+use Portavice\FileSanitizer\Dto\ScanReport;
 
 interface ScannerInterface
 {

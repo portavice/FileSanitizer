@@ -1,6 +1,6 @@
 <?php
 
-namespace SytxLabs\FileSanitizer\Enums;
+namespace Portavice\FileSanitizer\Enums;
 
 enum IssueSeverity: string
 {

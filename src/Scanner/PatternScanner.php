@@ -1,11 +1,11 @@
 <?php
 
-namespace SytxLabs\FileSanitizer\Scanner;
+namespace Portavice\FileSanitizer\Scanner;
 
-use SytxLabs\FileSanitizer\Contracts\ScannerInterface;
-use SytxLabs\FileSanitizer\Dto\Issue;
-use SytxLabs\FileSanitizer\Dto\ScanReport;
-use SytxLabs\FileSanitizer\Enums\IssueSeverity;
+use Portavice\FileSanitizer\Contracts\ScannerInterface;
+use Portavice\FileSanitizer\Dto\Issue;
+use Portavice\FileSanitizer\Dto\ScanReport;
+use Portavice\FileSanitizer\Enums\IssueSeverity;
 use ZipArchive;
 
 final class PatternScanner implements ScannerInterface
